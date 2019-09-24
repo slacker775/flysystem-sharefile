@@ -21,14 +21,20 @@
     "require": {
         "php": "^7.0",
         "ext-curl": "*",
-        "kapersoft/sharefile-api": "^1.1.0",
-        "league/flysystem": "^1.0.41"
+        "kapersoft/sharefile-api": "^1.0",
+        "league/flysystem": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/slacker775/sharefile-api"
+        }
+    ],
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.5",
         "fzaninotto/faker": "^1.7",
         "larapack/dd": "^1.1",
-        "mikey179/vfsStream": "^1.6",
+        "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^6.0",
         "sabre/dav": "^3.2"
     },
