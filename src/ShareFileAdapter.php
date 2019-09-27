@@ -118,7 +118,7 @@ class SharefileAdapter extends AbstractAdapter
     public function listContents($directory = '', $recursive = false)
     {
         if (! $item = $this->getItemByPath($directory)) {
-            return false;
+            return [];
         }
 
         return $this->buildItemList($item, $directory, $recursive);
