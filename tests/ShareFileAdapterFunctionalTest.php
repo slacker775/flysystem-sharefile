@@ -1,6 +1,6 @@
 <?php
 
-namespace Kapersoft\FlysystemSharefile\Tests;
+namespace Kapersoft\FlysystemShareFile\Tests;
 
 use League\Flysystem\Util;
 use League\Flysystem\Config;
@@ -14,7 +14,7 @@ use Kapersoft\ShareFile\Client;
  *
  * @link     http://github.com/kapersoft/flysystem-sharefile
  */
-class SharefileAdapterFunctionalTest extends TestCase
+class ShareFileAdapterFunctionalTest extends TestCase
 {
     /**
      * Test for itCanGetAClient.
