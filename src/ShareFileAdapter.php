@@ -1,6 +1,6 @@
 <?php
 
-namespace Kapersoft\FlysystemSharefile;
+namespace Kapersoft\FlysystemShareFile;
 
 use Exception;
 use League\Flysystem\Util;
@@ -17,7 +17,7 @@ use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
  *
  * @link     http://github.com/kapersoft/flysystem-sharefile
  */
-class SharefileAdapter extends AbstractAdapter
+class ShareFileAdapter extends AbstractAdapter
 {
 //    use StreamedTrait;
     use NotSupportingVisibilityTrait;
