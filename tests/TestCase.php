@@ -6,7 +6,7 @@ use Faker\Factory;
 use Faker\Generator;
 use Sabre\DAV\Exception;
 use Sabre\HTTP\HttpException;
-use Kapersoft\Sharefile\Client;
+use Kapersoft\ShareFile\Client;
 use Sabre\DAV\Client as WebDAVClient;
 use Kapersoft\FlysystemSharefile\sharefileAdapter;
 use PHPUnit\Framework\TestCase as PHPUnit_Framework_Testcase;

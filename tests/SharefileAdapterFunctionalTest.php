@@ -4,7 +4,7 @@ namespace Kapersoft\FlysystemSharefile\Tests;
 
 use League\Flysystem\Util;
 use League\Flysystem\Config;
-use Kapersoft\Sharefile\Client;
+use Kapersoft\ShareFile\Client;
 
 /**
  * Online Flysystem ShareFile Adapter tests.
