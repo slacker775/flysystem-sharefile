@@ -1,6 +1,6 @@
 <?php
 
-namespace Kapersoft\FlysystemSharefile\Tests;
+namespace Kapersoft\FlysystemShareFile\Tests;
 
 use Faker\Factory;
 use Faker\Generator;
@@ -9,10 +9,10 @@ use League\Flysystem\Util;
 use League\Flysystem\Config;
 use GuzzleHttp\Psr7\Response;
 use org\bovigo\vfs\vfsStream;
-use Kapersoft\Sharefile\Client;
+use Kapersoft\ShareFile\Client;
 use PHPUnit\Framework\TestCase;
-use Kapersoft\Sharefile\Exceptions\BadRequest;
-use Kapersoft\FlysystemSharefile\SharefileAdapter;
+use Kapersoft\ShareFile\Exceptions\BadRequest;
+use Kapersoft\FlysystemSharefile\ShareFileAdapter;
 
 /**
  * Offline Flysystem ShareFile Adapter tests.
@@ -22,7 +22,7 @@ use Kapersoft\FlysystemSharefile\SharefileAdapter;
  *
  * @link     http://github.com/kapersoft/flysystem-sharefile
  */
-class SharefileAdapterTest extends TestCase
+class ShareFileAdapterTest extends TestCase
 {
     /**
      * ShareFile client.
